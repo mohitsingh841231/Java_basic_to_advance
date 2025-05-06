@@ -1,1 +1,1 @@
-return (int)(Math.random()*(b-a+1)+a);
+arr
