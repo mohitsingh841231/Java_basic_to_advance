@@ -17,14 +17,12 @@ public class basicLL {
         b.next = c;
         c.next =d;
         d.next = e;
+        Node temp =a;
+          
+        while(temp.next !=null){
+            temp= temp.next;
+            System.out.println(temp.data);
 
     }
-    public static void display(){
-        Node head;
-        Node i = head;
-        while(i.next !=null){
-            i= i.next;
-            System.out.println(i.data);
-        }
-    }
+}
 }
