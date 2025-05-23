@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "KMP",
+            "request": "launch",
+            "mainClass": "KMP",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "LongestPrefixSuffix",
+            "request": "launch",
+            "mainClass": "LongestPrefixSuffix",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "PatternSearch",
+            "request": "launch",
+            "mainClass": "PatternSearch",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "StringConcat",
+            "request": "launch",
+            "mainClass": "StringConcat",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "StringQuestionPrac",
+            "request": "launch",
+            "mainClass": "StringQuestionPrac",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "basic",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "basicLL",
+            "request": "launch",
+            "mainClass": "basicLL",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "gcdlcm",
+            "request": "launch",
+            "mainClass": "gcdlcm",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "lec_1",
+            "request": "launch",
+            "mainClass": "lec_1",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "lec_2",
+            "request": "launch",
+            "mainClass": "lec_2",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "lec_3",
+            "request": "launch",
+            "mainClass": "lec_3",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "linearSearch",
+            "request": "launch",
+            "mainClass": "linearSearch",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "math",
+            "request": "launch",
+            "mainClass": "math",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "questionPr1",
+            "request": "launch",
+            "mainClass": "questionPr1",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "stringBasic",
+            "request": "launch",
+            "mainClass": "stringBasic",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "stringLec1",
+            "request": "launch",
+            "mainClass": "stringLec1",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "stringPrac4",
+            "request": "launch",
+            "mainClass": "stringPrac4",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "stringPrac_3",
+            "request": "launch",
+            "mainClass": "stringPrac_3",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "stringPrc2",
+            "request": "launch",
+            "mainClass": "stringPrc2",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "stringStroeInArray",
+            "request": "launch",
+            "mainClass": "stringStroeInArray",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "stringSub",
+            "request": "launch",
+            "mainClass": "stringSub",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        },
+        {
+            "type": "java",
+            "name": "subStringPrac",
+            "request": "launch",
+            "mainClass": "subStringPrac",
+            "projectName": "Java_basic_to_advance_4eb0275d"
+        }
+    ]
+}
