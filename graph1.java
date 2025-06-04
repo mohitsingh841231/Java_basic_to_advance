@@ -41,6 +41,8 @@ public class graph1 {
         graph[5].add(new Edge(5, 6));
 
         graph[6].add(new Edge(6, 5));
+        // graph[6].add(new Edge(6, 7)); 
+
     }
 
     public static void bcf(ArrayList<Edge>[] graph, int v) {
@@ -58,24 +60,34 @@ public class graph1 {
             }
         }
     }
+    public static void dfs(ArrayList<Edge>[] graph, int curr, boolean[] vis) {
+    System.out.println(curr);
+    vis[curr] = true;
+
+    for (int i = 0; i < graph[curr].size(); i++) {
+        Edge e = graph[curr].get(i);
+        if (!vis[e.dest]) {
+            dfs(graph, e.dest, vis);
+        }
+    }
+}
 
     public static void main(String[] args) {
-        int v = 7; // You have nodes 0 to 6, so size should be 7
+int v = 7;
+@SuppressWarnings("unchecked")
+ArrayList<Edge>[] graph = new ArrayList[v];
 
-        // @SuppressWarnings("unchecked")
-        ArrayList<Edge>[] graph = new ArrayList[v];
+createGraph(graph);
 
-        createGraph(graph);
+// Print neighbors of node 2
+System.out.print("Neighbors of node 2: ");
+for (Edge e : graph[2]) {
+    System.out.print(e.dest + " ");
+}
+System.out.println();
 
-        // Print neighbors of node 2
-        System.out.print("Neighbors of node 2: ");
-        for (Edge e : graph[2]) {
-            System.out.print(e.dest + " ");
-        }
-        System.out.println();
-
-        // Run BFS traversal
-        System.out.println("BFS traversal:");
-        bcf(graph, v);
+// Run DFS from node 0
+boolean[] vis = new boolean[v];
+dfs(graph, 0, vis);
     }
 }
