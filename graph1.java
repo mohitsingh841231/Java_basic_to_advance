@@ -60,8 +60,9 @@ public class graph1 {
             }
         }
     }
+    
     public static void dfs(ArrayList<Edge>[] graph, int curr, boolean[] vis) {
-    System.out.println(curr);
+    System.out.print(curr+" ");
     vis[curr] = true;
 
     for (int i = 0; i < graph[curr].size(); i++) {
@@ -74,7 +75,7 @@ public class graph1 {
 
     public static void main(String[] args) {
 int v = 7;
-@SuppressWarnings("unchecked")
+// @SuppressWarnings("unchecked")
 ArrayList<Edge>[] graph = new ArrayList[v];
 
 createGraph(graph);
